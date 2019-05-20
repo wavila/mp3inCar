@@ -1,5 +1,5 @@
 # sh-organize
-I often organize the songs inside folders of each artist to listen on the car radio. So I made an little bash to collect and organize many songs listed in a plain text, using routines as youtube-dl and eyeD3
+I often organize the songs inside folders of each artist to listen on the car radio. So I made a little bash to collect and organize many songs listed in a plain text, using routines as youtube-dl and eyeD3
 In the plain text is inserted the full song name (containing the name of the artist hyphenated with the title) and his link. I used to collect this info directly from output to youtube-dl, but some uploaders do not follow this pattern.
 ```
 Patti Smith - Whirl Away
