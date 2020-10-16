@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ./mp3Get.sh mp3Link mp3Folder
+# ./mp3Get.sh mp3Links dirToSave
 
 RED='\033[1;31m'
 GREEN='\033[1;32m'
@@ -12,7 +12,7 @@ if [ ! -d "$2" ]; then
   mkdir $2
 fi
 
-# [2] Download MP3 files from url server w/ address written in mp3Link [var: $1]
+# [2] Download MP3 files from url server w/ address written in plain text [var: $1]
 while IFS='' read -r line || [[ -n "$line" ]]; do
     if [[ "$line" == https* ]]; then
         #echo "$line"
@@ -27,7 +27,7 @@ done < "$1"
 # [3] Organizes inside mp3Folder [var: $2]
 path="$PWD/$2"
 echo " "
-printf "	${PURPLE}MP3 files will be organized by folders w/ dash delimiter in next step.${NC}\n"
+printf "	${PURPLE}MP3 files will be sorted by their labels.${NC}\n"
 read -rsp $'	Press any key to continue...\n' -n1 key
 #clear
 
