@@ -2,6 +2,7 @@
 
 # ./mp3Get.sh mp3Links dirToSave
 
+# Just fancy
 RED='\033[1;31m'
 GREEN='\033[1;32m'
 PURPLE='\033[1;35m'
@@ -24,7 +25,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     fi
 done < "$1"
 
-# [3] Organizes inside mp3Folder [var: $2]
+# [3] Organizes into dirToSave [var: $2]
 path="$PWD/$2"
 echo " "
 printf "	${PURPLE}MP3 files will be sorted by their labels.${NC}\n"
