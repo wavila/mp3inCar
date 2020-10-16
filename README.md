@@ -5,7 +5,7 @@ I'm just lazy enough to write a little code in bash to download and organize man
 In the plain text you've to insert the label (e.g., artists name and title) above their link. I used to save even this info directly from output to youtube-dl, but YouTube uploaders do not follow any pattern to name it.
 
 ```
-# for example, do it in plain text:
+# for example, do some like this in plain text:
 
 Patti Smith - Whirl Away
 https://www.youtube.com/watch?v=EgjLTg4DaYw
