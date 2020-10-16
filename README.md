@@ -1,6 +1,6 @@
 # sh-organize
 I often organize the songs inside specified folders to listen on the car (old radio, as you note). 
-I'm lazy, so I write a little code in bash to download and organize many songs described in a plain text using routines as the fabulous 'youtube-dl' and 'eyeD3'.
+I'm just lazy enough to write a little code in bash to download and organize many songs described in a plain text using routines as the fabulous 'youtube-dl' and 'eyeD3'.
 
 In the plain text you've to insert the label (e.g., artists name and title) above their link. I used to save even this info directly from output to youtube-dl, but YouTube uploaders do not follow any pattern to name it.
 
