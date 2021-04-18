@@ -1,8 +1,8 @@
-# sh-organize
+# mp3inCar
 I often organize the songs into respectively directories to listen in the car (old radio, as you note).
-I'm just lazy enough to write a little code in bash to download and organize many songs described in a plain text using routines as the fabulous 'youtube-dl' and 'eyeD3'.
+I'm just lazy enough to write a little code in bash to download and organize many songs described in a plain text using libraries as the fabulous 'youtube-dl' and 'eyeD3'.
 
-In the plain text you've to insert the label (e.g., artists name and title) above their link. I used to save even this info directly from output to youtube-dl, but YouTube uploaders do not follow any pattern to name it.
+In the plain text you've to insert the label (e.g., artists name and title) in the line above their link. I used to save even this info directly from output to youtube-dl, but YouTube uploaders do not follow any pattern to name it.
 
 ```
 # for example, do some like this in plain text:
@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=YXgPAXvFdqQ
 # and so on
 ```
 
-The bash script runs through the command line `$ mp3Get.sh mp3Links dirToSave`; whereas 'mp3Links' refers to plain text file and the 'dirToSave' the directory whose the songs will be saved. I made to me, but may be useful for someone else. 
+The bash script runs through the command line `$ mp3Get.sh mp3Links dirToSave`; whereas 'mp3Links' refers to plain text file and the 'dirToSave' the directory whose the songs will be saved. It was useful to me, but may be for someone else too. 
 
 ## Requirements
 1. [youtube-dl](https://github.com/ytdl-org/youtube-dl/)
