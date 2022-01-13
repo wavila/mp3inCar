@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=YXgPAXvFdqQ
 # and so on
 ```
 
-The bash script runs through the command line `$ mp3Get.sh mp3Links dirToSave`; whereas 'mp3Links' refers to plain text file and the 'dirToSave' the directory whose the songs will be saved. It was useful to me, but may be for someone else too. 
+The bash script runs through the command line `$ mp3Get.sh <mp3Links> <dirToSave>`; whereas 'mp3Links' refers to plain text file and the 'dirToSave' the directory whose the songs will be saved. It was useful to me, but I hope it may be for someone else too. 
 
 ## Requirements
 1. [youtube-dl](https://github.com/ytdl-org/youtube-dl/)
